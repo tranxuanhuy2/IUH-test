@@ -1,0 +1,324 @@
+.header-descrip-container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 35px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+}
+.header-descrip-menu{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-descrip-menu li{
+    list-style: none;
+    text-align: center;
+}
+.header-descrip-menu ul{
+    text-align: center;
+}
+.header-descrip-menu li:hover{
+    text-decoration: underline;
+}
+.header-descrip-menu-left li{
+    padding: 8px;
+    padding-left: 0;
+    padding-right: 25px;
+}
+.header-descrip-menu-right li{
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 0;
+}
+.list{
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}   
+.list a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.header-logo-container{
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+.header-logo-descrip{
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-tittle{
+    text-align: center;
+}
+.logo-tittle h2{
+    margin-top: 10px;
+}
+.logo-tittle h3{
+    margin-bottom: 10px;
+}
+.header-menu-containner{
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+.og-menu{
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    background: #ACB3B9;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08);
+    border: #CBD5DE solid 1px;
+    border-bottom: none;
+}
+.og-menu-descrip{
+    position: relative;
+    width: 650px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.og-menu-descrip li{
+    list-style: none;
+    text-transform: uppercase;
+}
+.og-menu-descrip a{
+    text-decoration: none;
+    color: darkblue;
+}
+.og-menu-descrip li:hover .nav-links {
+    z-index: 1;
+    opacity: 1;
+}
+.og-menu-descrip :after{
+    display: flex;
+}
+.og-menu .nav-links li :hover{
+    background-color: red;
+    color: white;
+}
+.og-menu li :hover{
+    text-decoration: none;
+    color:red
+}
+.nav-links{
+    position: absolute;
+    padding: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .5s;
+    top: 24px;
+    box-shadow: 0px 1px 15px rgba(7, 7, 7, 0.2);
+    background-color: white;
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 5px;
+}
+.search-zone{
+    margin: 4px;
+}
+.header-slide-show{
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: center;
+}
+.slide-show-container{
+    width: 960px;
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+.slide{
+    display: none;
+}
+.slide-button-pre{
+    display: left;
+    float: left;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.content-container{
+    width: 960px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    display: flex;
+    background-color: white;
+}
+.content-left{
+    width: 23%;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    flex-flow: column;
+    padding-right: 20px;
+}
+.content-left p{
+    text-align: center;
+    background-color: #184E9E;
+    margin: 0;
+    padding: 15px 0;
+    color: #FFF;
+    font-family: "Helvetica Neue Condensed Black", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.content-left a, p{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 14px;
+}
+.content-left li{
+    list-style: none;
+    margin: 0;
+    padding: 11px 19px;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.content-left ul{
+    margin: 0;
+    padding: 0;
+    background: #D7DFE2;
+}
+.content-left li:hover .list-links {
+    z-index: 1;
+    opacity: 1;
+}
+.content-left li :hover{
+    text-decoration: none;
+    color:red
+}
+.left-menu{
+    position: relative;
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 1px;
+    background: #D7DFE2;
+}
+.list-links{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .5s;
+    left: 215px;
+    box-shadow: 5px 5px 5px rgba(7, 7, 7, 0.2);
+    width: 300px;
+}
+.list-tittle{
+    background-color: lightgray;
+}
+.list-tittle p{
+    margin: 0;
+}
+.content-right{
+    width: 77%;
+}
+.content-right a{
+    text-decoration: none;
+    color: black;
+}
+.content-right a:hover{
+    color: red;
+}
+.content-right span{
+    font-size: 11px;
+    font-weight: normal;
+}
+.element{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.left-element{
+    width: 50%;
+}
+.right-element{
+    width: 50%;
+    margin: 0 20px;
+}
+.tittle{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border-bottom: red solid 2px;
+    padding: 10px 0;
+}
+.tittle a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkblue;
+}
+.content{
+    padding-top: 8px;
+}
+
+.school-infor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+.school-descrip{
+    width: 960px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    display: flex;
+    background-color: darkblue;
+}
+.school-descrip-left{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-right: 15px;
+}
+.school-descrip-right{
+    width: 35%;
+    margin: 15px;
+}
+.school-infor-tittle{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.school-descrip-content{
+    margin: 15px 0;
+    margin-left: 15px;
+}
+.school-infor-tittle a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.school-infor-tittle h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
